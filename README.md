@@ -1,6 +1,6 @@
 # 내손의서당 [chunjabasic] 
 [내손의서당](https://play.google.com/store/apps/details?id=com.tegine.chunjabasic)
-
+[https://play.google.com/store/apps/details?id=com.tegine.chunjabasic](https://play.google.com/store/apps/details?id=com.tegine.chunjabasic)
 안드로이드 프로젝트 내손의 서당을 공개합니다:
 
 1. 이 코드를 사용함에 따른 모든 책임은 사용자가 집니다.
