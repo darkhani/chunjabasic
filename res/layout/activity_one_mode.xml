@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" 
+    android:background="@drawable/nan_image">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+         <Button
+            android:id="@+id/button_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_list" />
+
+        <Button
+            android:id="@+id/button_memory_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/finish_memory_word" />
+        
+        <Button
+            android:id="@+id/button_hidden_mean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hidden_mean" />
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_data" />
+
+        <TextView
+            android:id="@+id/memory_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_bg"
+            android:text="" />
+        
+    </LinearLayout>-->
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ListView
+            android:id="@+id/one_mode_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </ListView>
+    </LinearLayout>
+          
+<RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/one_mode_cp_layout">        
+<com.fsn.cauly.CaulyAdView
+xmlns:app="http://schemas.android.com/apk/res/com.tegine.chunjabasic" 
+android:id="@+id/xmladview2"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+app:appcode="SjYL450N" 
+app:effect="RightSlide"
+/>
+    </RelativeLayout>
+</LinearLayout>

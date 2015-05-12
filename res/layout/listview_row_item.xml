@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#00ffffff">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:background="#00ffffff">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:background="#00ffffff">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="  " />
+
+                <TextView
+                    android:id="@+id/hanja_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="30pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:background="#00ffffff">
+
+                <TextView
+                    android:id="@+id/textView1_9"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="  " />
+
+                <TextView
+                    android:id="@+id/mean_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="9pt" />
+
+                <TextView
+                    android:id="@+id/textView1_911"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="  " />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:text="0"
+                    android:textSize="9pt" />
+
+                <TextView
+                    android:id="@+id/white_space"
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content"
+                    android:textSize="9pt" />
+            </LinearLayout>
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:background="#00ffffff">
+
+                <TextView
+                    android:id="@+id/textView5_space"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="부수" />
+
+                <TextView
+                    android:id="@+id/busu_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="9pt" />
+
+                <TextView
+                    android:id="@+id/textView6_space"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text=" " />
+                
+                <TextView
+                    android:id="@+id/total_title"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="총획" />
+
+                <TextView
+                    android:id="@+id/total_hoik_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:text="0"
+                    android:textSize="9pt" />
+
+               
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:background="#00ffffff">
+                
+                <TextView
+                    android:id="@+id/nanido_title"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:text="난이도" />
+
+                <TextView
+                    android:id="@+id/nanido_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:text="0"
+                    android:textSize="9pt" />
+                </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" 
+        android:background="#00ffffff">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#00ffffff" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        android:background="#00ffffff" >
+    </LinearLayout>
+
+</LinearLayout>

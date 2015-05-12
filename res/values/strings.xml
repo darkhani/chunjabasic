@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">내손의서당</string>
+    <string name="app_ver">버젼 1.0.1</string>
+    <string name="company_name">TEGINE.COM</string>
+    <string name="action_settings">설정</string>
+	<string name="show_list">목록</string>
+    <string name="finish_memory_word">암기장</string>
+    <string name="hidden_mean">음훈안보기</string>
+    <string name="show_mean">음훈보기</string>
+    <string name="reset_data">초기화</string>
+    
+    
+    <!-- Color  -->
+	<color name="white_bg">#FFFFFF</color>
+	<color name="back_bg">#80a3c4</color>
+	<color name="back_bg_light">#ccdae7</color>
+	<color name="black_bg">#000000</color>
+	<color name="black_gray">#504a4b</color>
+	<color name="black_yellow_bright">#FFFFE0</color>
+</resources>
